@@ -1,10 +1,13 @@
 <template>
-  <div />
+  <button>{{ upload }}</button>
 </template>
 
 <script>
 export default {
-  name: "Upload"
+  name: "Upload",
+  data: () => ({
+    upload: "Upload",
+  }),
 };
 </script>
 
