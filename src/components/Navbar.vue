@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="#">Home</a>
+    <a href="#" @click="$emit('change-view')">Home</a>
     <Upload />
   </div>
 </template>
