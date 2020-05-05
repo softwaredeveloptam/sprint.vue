@@ -25,7 +25,7 @@ export function listObjects() {
         return;
       }
 
-      resolve(data.Contents.slice(0, 5));
+      resolve(data.Contents.slice(-20));
     });
   });
 
